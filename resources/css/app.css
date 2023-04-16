@@ -1,0 +1,74 @@
+.footer {
+    font-size: 10px;
+}
+
+.logo {
+ width: 200px;
+ height: 40px;
+}
+
+.drawer {
+    width: 50%;
+}
+
+.line {
+    color: antiquewhite;
+}
+
+.fsize {
+    font-size: 12px;
+}
+.less {
+    margin-top: -10px!important;
+}
+
+.floatRight {
+    float: right!important;
+}
+
+.hideOffmenu {
+    visibility: hidden;
+}
+
+.hideModal {
+    position:absolute;
+    top: -1000px;
+}
+
+.profile {
+   top: 10px;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 50px;
+}
+.user {
+    width: 150px;
+    height: 150px;
+}
+.usrpic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.qrcode {
+    width: 200px;
+    height: 200px;
+    opacity: 0.2;
+}
+.mailtoken-bg {
+    position: absolute;
+    background-image: url("http://127.0.0.1:8000/images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+.products {
+    margin: auto;
+}
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .hideOffmenu {
+        visibility: visible;
+    }    
+ }
